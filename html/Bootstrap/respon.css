@@ -1,0 +1,407 @@
+    
+@media only screen and (max-width:1023.9px){
+    body{
+            padding-top: 90px;
+            width: 100%;
+            margin: 0px;
+        }
+    .navbar{
+        width: 100%;
+    }
+    .main{
+        width: 100%;
+    }
+    .navbar-branch img{
+            height: 50px;
+        }
+    .pepsi-soda{
+        width: 100%;
+        background: url(/Bootstrap/image/tablet-floor@3x.png), url(/Bootstrap/image/tablet-background@3x.png);
+        background-repeat: no-repeat;
+        background-size: 100% auto;
+        background-position: bottom -119px center, top center;
+        height: 133.333vw;
+    }
+    .navbar-toggler{
+        justify-content: end;
+    }
+    .navbar-nav{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    .navbar{
+            height: 100px;
+        }
+    .nav-link{
+            display: none;
+        }
+    .navigation-buy{
+            display: none;
+        }
+    .nav-link{
+            padding: 0rem;
+        }
+    .pepsi-soda .pepsi-soda_video{
+            top: 61.133vw;
+            width: 35vw;
+            height: 19.01vw;
+        }
+    .pepsi-soda .pepsi-soda_title{
+            background-image: url(/Bootstrap/image/pepsi-pepsi-cola-logo-mobile-lg@2x.png);
+            width: 55.339vw;
+            height: 46.745vw;
+            top: 10.547vw;
+        }
+    .pepsi-soda_video{
+            top: 61.133vw;
+        width: 35vw;
+        height: 19.01vw;
+        }
+    .promotion_video{
+            height: 100%;
+        }
+    .video-thumb-overlay-container{
+            width: 100%;
+            height: 100%;
+        }
+    .video-thumb-overlay-container img{
+            width: 100%;
+            height: 100%;
+        }
+    .pepsi-soda_Lto{
+            background-image: url(/Bootstrap/image/desktop-lto-button@3x.png);
+            width: 23.568vw;
+        height: 12.214vw;
+        left: -5px;
+        top: 2.799vw;
+        }
+    .pepsi-soda_can-left{
+            width: 45.703vw;
+            height: 52.279vw;
+            left: 3.398vw;
+            right: auto;
+            bottom: 0.924vw;
+            margin: 0;
+        }
+        .pepsi-soda_can-right{
+            width: 45.469vw;
+        height: 48.594vw;
+        right: 3.398vw;
+        left: auto;
+        bottom: 0.924vw;
+        margin: 0;
+        }
+        .pepsi-nitro-promo{
+            height: 510px;
+        }
+        .pepsi-nitro-container{
+            background-image: url(/Bootstrap/image/Desktop_Background.png);
+            background-position: 50% center;
+        }
+        .pepsi-nitro__flex{
+            flex-direction: row;
+            padding: 7vw 0 4vw 0;
+        }
+        .pepsi-nitro__flex-child:first-of-type {
+            padding: 0px;
+            max-height: 397px;
+        }
+        .pepsi-nitro__flex-child:first-of-type img{
+            width: 276px;
+            height: 177px;
+        }
+        .pepsi-nitro__flex-child {
+            width: 50%;
+            height: 80%;
+            justify-content: center;
+            flex: 50%;
+        }
+    .pepsi-nitro__flex-child:last-of-type {
+        order: -1;
+        align-items: flex-end;
+        display: flex;
+        width: 282px;
+        height: 397px;
+    }
+    .pepsi-nitro__flex-child:last-of-type img {
+        width: 282px;
+        height: 397px;
+    }
+    .pepsi-twil-promo{
+        height: 528px;
+    }
+    .media-desktop{
+        height: 100%;
+    }
+    .promotion__container-title .promotion__title{
+        justify-content: center;
+        margin: 0px auto;
+    }
+    .promotion__container1{
+        height: 180px;
+        width: 354.76px;
+    }
+    .promotion__container1 img{
+        height: 180px;
+        width: 354.76px;
+    }
+    .promotion__container2{
+        height: 180px;
+        width: 354.76px;
+    }
+    .promotion__container2 h2{
+        font-size: 25px;
+        font-weight: bold;
+    }
+    .footer{
+        height: 60%;
+        min-height: 28rem;
+    }
+    footer .footer__linklist-mobile_container {
+        display: flex;
+        -webkit-box-align: center;
+        align-items: center;
+        -webkit-box-flex: 2;
+        flex: 2;
+}
+.footer .footer__linklist-mobile {
+    column-count: 1;
+    margin: auto;
+    text-align: center;
+}
+.footer__linklist-mobile {
+    padding: 0;
+    list-style: none;
+    column-count: 3;
+    column-gap: 4rem;
+}
+    .footer .footer__linklist{
+        display: none;
+    }
+    footer .footer__container {
+        height: 25%;
+        border-top: 1px solid hsla(0, 0%, 100%, .5);
+    }
+    .footer__logo img{
+        height: 48px;
+        width: 48px;
+    }
+    .footer__container-right{
+        height: 80%;
+    }
+    .footer .footer__container{
+        height: 112px;
+    }
+    .footer .footer__social-container{
+        margin-top: 5px;
+    }
+}
+   
+@media only screen  and (max-width: 768px){
+    body{
+        padding-top: 100px;
+        width: 100%;
+        margin: 0px;
+        background-color: #d0021b;
+    }
+    .navbar{
+        width:100%;
+        height: 100px;
+        padding: 0;
+        margin: 0px;
+    }
+    .navbar-collapse{
+        display: block;
+    }
+    .container-fluid{
+        width: 95%;
+        
+    }
+    .navbar-nav{
+        width: 100%;
+    }
+    .main{
+        width: 100%;
+        margin: 0px;
+        padding: 0px;
+    }
+    .pepsi-soda{
+        width: 100%;
+        margin: 0px;
+    }
+    .pepsi-soda{
+        background: url(/Bootstrap/image/mobile-floor@3x.png), url(/Bootstrap/image/mobile-background@3x.png);
+        background-repeat: no-repeat;
+        background-size: 100% auto;
+        background-position: bottom -119px center, top center;
+        height: 216.355vw;
+    }
+
+    .pepsi-soda .pepsi-soda_title {
+        background-image: url(/Bootstrap/image/pepsi-pepsi-cola-logo-mobile-lg@2x.png);
+        width: 61.916vw;
+        height: 52.804vw;
+        top: 9.346vw;
+    }
+    .pepsi-soda .pepsi-soda_video{
+        width: 53.738vw;
+        height: 29.182vw;
+        top: 68.692vw;
+    }
+    .promotion_video{
+        height: 100%;
+    }
+    .video-thumb-overlay-container{
+        width: 100%;
+        height: 100%;
+    }
+    .video-thumb-overlay-container img{
+        height: 100%;
+        width: 100%;
+    }
+    .pepsi-soda .pepsi-soda_Lto {
+        width: 26.449vw;
+        height: 26.986vw;
+        right: 11.285vw;
+        bottom: 86.098vw;
+        position: absolute;
+        background-image: url(/Bootstrap/image/mobile-lto-button@2x.png);
+        background-repeat: no-repeat;
+        background-size: contain;
+        background-position: right bottom;
+    }
+    .pepsi-soda .pepsi-soda_can-left {
+        width: 62.243vw;
+        height: 71.192vw;
+        background-image: url(/Bootstrap/image/cream-soda@3x.png);
+        right: 33%;
+        left: 0;
+        margin: 0 auto;
+        bottom: 41.893vw;
+    }
+    .pepsi-soda .pepsi-soda_can-right {
+        width: 61.916vw;
+        height: 66.168vw;
+        background-image: url(/Bootstrap/image/black-cherry@3x.png);
+        right: 0;
+        left: 33%;
+        margin: 0px auto;
+        bottom: 5.491vw;
+    }
+    .pepsi-nitro-promo{
+        height: auto;
+    }
+    .pepsi-nitro-container {
+        background-image: url(/Bootstrap/image/Tablet_Background.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+        width: 100%;
+        display: flex;
+        height: 100%;
+        justify-content: center;
+    }
+    .pepsi-nitro__flex {
+        padding: 9vw 0;
+        height: 1160px;
+        width: 517px;
+        display: flex;
+        margin: 0px auto;
+        flex-direction: column-reverse;
+    }
+    .pepsi-nitro__flex-child:first-child{
+        height: 305px;
+    }
+    .pepsi-nitro__flex-child:first-of-type img {
+        width: 375px;
+        height: 305px;
+    }
+    .pepsi-nitro__flex-child:first-of-type{
+        width: 100%;
+    }
+    .pepsi-nitro__flex-child:last-of-type {
+        width: 375px;
+        height: 727px;
+    }
+    .pepsi-nitro__flex-child:last-of-type img {
+        width: 375px;
+        height: auto;
+        
+    }
+    .pepsi-zero-sugar-promo{
+        min-height: 33rem;
+        padding: 3rem 0 2rem 0;
+    }
+    .promotion .promotion__container{
+        height: 635px;
+        display: flex;
+        flex-direction: column-reverse;
+        width: 100%;
+    }
+    .pepsi-zero-sugar-promo .promotion__container-right {
+        margin-top: 5%;
+        width: 362px;
+        height: 383px;
+        display: flex;
+        justify-content: center;
+    }
+    .promotion__container-right .pepsi-zero-can {
+        height: 375px;
+        width: 210px;
+    }
+    .promotion.pepsi-zero-sugar-promo .promotion__container-left .promotion__title {
+        width: 80%;
+        margin: 0 auto;
+    }
+    .pepsi-twil-promo{
+        height: 656px;
+    }
+    .pepsi-twil-promo .promotion__container-title{
+        width: 375px;
+    }
+    .pepsi-twil-promo .promotion__container-title img{
+        width: 375px;
+        height: 200px;
+        box-sizing: border-box;
+    }
+    .media-desktop {
+        margin-top: 32px;
+    }
+    .media-desktop img{
+        width: 375px;
+        height: 250px;
+        margin-top: 0px;
+    }
+    .promotion1{
+        width: 100%;
+        min-height: 56rem;
+    }
+    .promotion .promotion__container{
+        height: 90%;
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    .promotion .promotion1{
+        min-height: 56rem;
+    }
+    .promotion .promotion__right{
+        display: flex;
+        flex-direction: column;
+    }
+    .promotion .promotion__container1{
+        width: 80%;
+        height: 272px;
+    }
+    .promotion .promotion__container1 img{
+        height: 100%;
+        width: 100%;
+    }
+    .promotion .promotion__container2{
+        display: flex;
+        justify-content: center !important;
+        text-align: center !important;
+        align-items: center !important;
+        flex-direction: column;
+        margin-right: 0px !important    ;
+    }
+}

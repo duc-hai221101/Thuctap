@@ -1,0 +1,7 @@
+{
+  "dependencies": {
+    "p-cli": "^0.1.1",
+    "pug": "^3.0.2",
+    "pug-cli": "^1.0.0-alpha6"
+  }
+}

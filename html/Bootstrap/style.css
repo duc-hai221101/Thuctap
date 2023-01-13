@@ -1,0 +1,722 @@
+/* -------- Header---------- */
+body {
+    padding-top: 90px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 13px;
+
+}
+
+.pepsi-soda {
+    background-image: url(/Bootstrap/image/background-desktop@3x.png);
+    background-size: auto 100%;
+    background-position: top center;
+    height: 1100px;
+}
+
+.pepsi-soda .pepsi-soda_title {
+    background-image: url(/Bootstrap/image/pepsi-pepsi-cola-logo-desktop.png);
+    width: 290px    ;
+    height: 396px;
+    top: 27px;
+}
+
+.pepsi-soda .pepsi-soda_video {
+    position: absolute;
+    top: 451.5px;
+    width: 268.8px;
+    height: 148.55px;
+}
+
+.pepsi-soda_Lto {
+    background-image: url(/Bootstrap/image/desktop-lto-button@2x.png);
+    width: 181px;
+    height: 93.8px;
+    top: 21.5px;
+}
+
+.pepsi-soda_can-left {
+    background-image: url(/Bootstrap/image/cream-soda@3x.png);
+    width: 404.2px;
+    height: 464.8px;
+    left: -37.9px;
+
+    bottom: 46.8px;
+}
+
+.pepsi-soda_can-right {
+    background-image: url(/Bootstrap/image/black-cherry@3x.png);
+    width: 404.2px;
+    height: 432px;
+    right: -37.9px;
+    bottom: 46.8px;
+}
+
+.pepsi-nitro-promo {
+    height: 574.475px;
+}
+
+.pepsi-nitro-container {
+    width: 100%;
+    height: 100%;
+    background-image: url(/Bootstrap/image/Desktop_Background.png);
+    background-position: 50% center;
+}
+
+.pepsi-nitro__flex {
+    padding: 3vw 0 2vw 0;
+    height: 100%;
+    display: flex;
+    width: 764.313px;
+    margin: 0px auto;
+    flex-direction: row;
+}
+
+.pepsi-nitro__flex-child {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.pepsi-nitro__flex-child:first-of-type {
+    padding: 0 0 0 3vw;
+    justify-content: center;
+    width: 393.31px;
+    height: 522.29px;
+}
+
+.pepsi-nitro__flex-child:first-of-type img {
+    width: 362px;
+    height: 232px;
+}
+
+.pepsi-nitro__flex-child:last-of-type {
+    order: -1;
+    align-items: flex-end;
+    display: flex;
+    width: 371px;
+    height: 522.29;
+}
+
+.pepsi-nitro__flex-child:last-of-type img {
+    width: 371px;
+    height: 522.287px;
+}
+
+.navbar {
+    background-color: #0065c3 !important;
+    height: 90px;
+    padding: 0px;
+    position: fixed;
+    width: 100%;
+}
+
+.container-fluid {
+    padding: 0px;
+    width: 95%;
+    height: 60px;
+}
+
+.navbar-toggler {
+    border: none;
+    stroke: white;
+}
+
+.navbar-toggler-icon {
+    stroke: white;
+    color: rgb(255, 255, 255);
+}
+
+.navbar-branch {
+    margin-right: 60px;
+}
+
+.navbar-nav {
+    position: relative;
+    display: flex;
+    -webkit-box-align: center;
+    align-items: center;
+    width: 95%;
+    margin: 0px;
+    padding: 0;
+    list-style: none;
+}
+
+.nav-item {
+    color: white !important;
+    font-weight: bold;
+    font-size: 13px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-right: 30px;
+    height: 100%;
+
+}
+
+.navbar-nav .nav-link {
+    padding: 0px;
+    color: white !important;
+    font-weight: bold;
+    font-size: 13px;
+    margin: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+    height: 100%;
+}
+
+.navbar li .nav-link:hover {
+    color: black !important;
+}
+
+.nav-a {
+    padding: 5px 20px 5px 20px;
+    border-radius: 30px;
+    font-size: 13px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+
+.navbar li .nav-a:hover {
+    color: #0065c3 !important;
+    background-color: white;
+}
+
+.navigation-buy {
+    margin-right: 0px;
+    display: flex;
+    justify-content: end;
+}
+
+section {
+    position: relative;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    -webkit-box-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    justify-content: center;
+    overflow: hidden;
+}
+
+.pepsi-soda {
+    display: flex;
+    height: 700px;
+}
+
+.pepsi-soda .pepsi-soda_title {
+    position: absolute;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    background-size: contain;
+
+}
+
+.pepsi-soda .pepsi-soda_video {
+    position: absolute;
+    left: 0;
+    height: 170.2px;
+    width: 313.3px;
+    right: 0;
+    margin: 0 auto;
+    z-index: 4;
+}
+
+.promotion_video {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    position: relative;
+    align-items: center;
+    height: 148.55px;
+    margin: initial;
+    min-height: initial;
+    flex-direction: column;
+}
+
+.promotion_watch-now-container {
+    position: absolute;
+    text-align: center;
+    z-index: 9;
+    background-color: #0065c3c7;
+    height: 86.1px;
+    width: 112px;
+    padding: 7px 14px;
+}
+
+.promotion_video-title {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 13px;
+    font-weight: bold;
+    color: rgb(255, 255, 255);
+}
+
+.promotion_video .promotion_video-button {
+    width: 56px;
+    height: 56px;
+    z-index: 1;
+    background: transparent;
+    border: none;
+    pointer-events: none;
+}
+
+.promotion_video-button_svg {
+    box-sizing: border-box;
+    pointer-events: none;
+
+}
+
+.video-thumb-overlay-container {
+    width: 100%;
+    width: 268.8px;
+    display: block;
+    height: 148.55px;
+    z-index: 1;
+    font-size: 300;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+}
+
+.video-thumb-overlay {
+    background-color: black;
+    position: absolute;
+    opacity: 0;
+    width: 100%;
+    height: 100%;
+    left: 0;
+}
+
+.promotion_video img {
+    position: initial;
+    top: initial;
+    left: initial;
+    height: 146.15px;
+    width: 268.8px;
+}
+
+.pepsi-soda_Lto {
+    position: absolute;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: right bottom;
+    left: -5px;
+}
+
+.pepsi-soda_can-left {
+    position: absolute;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-image: url(/Bootstrap/image/cream-soda@2x.png);
+    background-position: left top;
+    z-index: 1;
+}
+
+.pepsi-soda_can-right {
+    position: absolute;
+    background-image: url(/Bootstrap/image/black-cherry@3x.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: left top;
+    z-index: 1;
+}
+
+.pepsi-nitro-promo {
+    width: 100%;
+    height: 573.475px;
+}
+
+pepsi-nitro-container {
+    background-image: url(/Bootstrap/image/Desktop_Background.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+h2 {
+    color: #fff;
+    font-size: 20px;
+    height: 27px;
+    font-weight: bold;
+    margin: 0;
+}
+
+.footer {
+    height: 288px;
+    display: flex;
+    background: #0065c3;
+    color: #fff;
+    position: relative;
+    width: auto;
+    height: 18rem;
+    flex-direction: column;
+}
+
+.footer .footer__container {
+    display: flex;
+    box-sizing: border-box;
+    width: 100%;
+    height: 100%;
+    padding: 2.5%;
+    -webkit-box-align: center;
+    align-items: center;
+    -webkit-box-pack: justify;
+    justify-content: space-between;
+}
+
+.footer .footer__logo {
+    display: block;
+}
+
+.footer .footer__logo img {
+    width: 100%;
+}
+
+img {
+    height: auto;
+}
+
+.footer .footer__linklist {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    display: block;
+    column-count: 3;
+    width: 570.8px;
+    height: 69.6px;
+    column-gap: 4rem;
+}
+
+.footer__link-item {
+    color: #fff;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+
+.footer__container-right {
+    width: 277.24px;
+    height: 103.2px;
+
+}
+
+.pepsi-nitro__flex-child h2 {
+    font-weight: bold;
+}
+
+.button-large.cta-142 {
+    color: #fff;
+    border: 2px solid #fff;
+    font-weight: bold;
+    border-radius: 20px;
+    padding: 6.4px 29.6px;
+}
+
+.button-large {
+    color: #fff;
+    border: 2px solid #fff;
+    font-weight: bold;
+    border-radius: 20px;
+    font-size: 15px;
+    padding: 6.4px 29.6px;
+}
+
+.footer .footer__social-container {
+    display: flex;
+    width: 100%;
+    margin-top: 1rem;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.pepsi-zero-sugar-promo {
+    height: auto;
+    min-height: 528px;
+}
+
+.promotion .promotion__center {
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: reverse;
+    flex-direction: row-reverse;
+}
+
+.promotion .promotion__container {
+    width: 80%;
+    height: 437.112px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: relative;
+}
+
+.promotion.fly-in.visible .promotion__center .promotion__container-right {
+    animation: .9s cubic-bezier(.455, .03, .515, .955) .5s forwards elastic-ease-out-left, .9s cubic-bezier(.215, .61, .355, 1) .5s forwards linear-fade-in;
+
+}
+
+.pepsi-zero-sugar-promo .promotion__container-right {
+    width: 27.5%;
+    height: 437.11px;
+}
+
+.promotion__container-right .pepsi-zero-can {
+    height: 437.11px;
+    width: 239.18px;
+
+}
+
+.pepsi-zero-sugar-promo {
+    background-image: url(/Bootstrap/image/PZS-tile-background.png);
+    background-position: center center;
+    background-size: cover;
+    padding: 0;
+}
+
+.pepsi-zero-sugar-promo .promotion__container-left {
+    width: 66.5%;
+    height: 365.15px;
+}
+
+.promotion.promotion__center.promotion__container-left {
+    align-items: flex-start;
+    text-align: left;
+}
+
+.promotion.promotion__container-left {
+    display: flex;
+    height: auto;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.promotion.fly-in.visible .promotion__center .promotion__title {
+    animation: .9s cubic-bezier(.455, .03, .515, .955) .5s forwards elastic-ease-out-right, .9s cubic-bezier(.215, .61, .355, 1) .5s forwards linear-fade-in;
+}
+
+.pepsi-zero-sugar-promo .promotion__container-left .promotion__title {
+    width: 100%;
+    height: auto;
+}
+
+h2 {
+    font-weight: 400;
+    margin: 0;
+}
+
+.promotion__title img {
+    width: 100%;
+    height: auto;
+}
+
+.promotion.pepsi-zero-sugar-promo .promotion__video-wrapper {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    margin-top: 1rem;
+}
+
+.promotion.pepsi-zero-sugar-promo .promotion__watch-now-container {
+    position: absolute;
+    text-align: center;
+}
+
+.promotion__video {
+    display: flex;
+    width: 274px;
+    height: 156.4px;
+    justify-content: center;
+    align-items: center;
+}
+
+.promotion__watch-now-container {
+    z-index: 9;
+    background-color: #0065c3c7;
+    width: 98.45px;
+    height: 86.1px;
+    justify-content: center;
+    padding: 7px 14px;
+    text-align: center;
+}
+
+.promotion .promotion__video .promotion__video-button {
+    width: 3.5rem;
+    height: 3.5rem;
+    z-index: 1;
+    background: transparent;
+    border: none;
+    pointer-events: none;
+}
+
+.promotion__video-cta {
+    color: #fff;
+    font-weight: bold;
+}
+
+.video-thumb-overlay-container {
+    width: 274.73px;
+}
+
+.video-thumb-overlay-container img {
+    width: 274.25px;
+    height: 153.988px;
+}
+
+.pepsi-twil-promo {
+    height: 610x;
+    background-image: url(/Bootstrap/image/twil-bg.jpg);
+    background-position: center center;
+    background-size: cover;
+}
+
+.promotion__left {
+    width: 100%;
+    height: 100%;
+}
+
+.promotion.pepsi-twil-promo .promotion__container {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: relative;
+    text-align: center;
+}
+
+.promotion.pepsi-twil-prom.promotion__container-can {
+    width: 597px;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+.twil-can {
+    height: 546px;
+    margin-top: 64px;
+}
+
+.promotion__container-title {
+    width: 35%;
+    height: 282.88px;
+    margin: 0 auto;
+}
+
+.promotion__title {
+    width: 100%;
+    height: 100%;
+}
+
+.media-desktop {
+    height: auto;
+}
+
+.promotion.promotion-142 {
+    border-color: #0065c3;
+    background-image: url(/Bootstrap/image/04_Generation_BG_D_2.png);
+}
+
+.promotion {
+    min-height: 33rem;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 50%;
+    position: relative;
+}
+
+.promotion .promotion__right {
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: reverse;
+    flex-direction: row-reverse;
+}
+
+.promotion.promotion__container {
+    height: 80%;
+    width: 80%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    position: relative;
+}
+
+.promotion.fly-in.visible .promotion__right .promotion__container1 {
+    animation: .9s cubic-bezier(.455, .03, .515, .955) .5s forwards elastic-ease-out-left, .9s cubic-bezier(.215, .61, .355, 1) .5s forwards linear-fade-in;
+}
+
+.promotion.promotion__container1 {
+    width: 47.5%;
+    height: 80%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+.promotion__hero-image-mobile {
+    display: none;
+}
+
+.promotion__hero-image {
+    width: 415.86px;
+    height: 211.5px;
+}
+
+.promotion .promotion__right .promotion__container2 {
+    -webkit-box-align: start;
+    align-items: flex-start;
+    text-align: left;
+}
+
+.promotion .promotion__container2,
+.promotion .flavors-wrapper .promotion__container2 {
+    width: 47.5%;
+    height: auto;
+    margin-right: 40px;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    flex-direction: column;
+    position: relative;
+}
+
+.promotion__title {
+    font-size: 35px;
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    font-weight: bold;
+    margin: 0px;
+    line-height: 1em;
+}
+
+.promotion__button_container button {
+    font-size: 13px !important;
+    background-color: #0065c3;
+}
+
+.promotion__body {
+    margin: 1em 0;
+}
+
+.promotion .promotion__button_container {
+    position: relative;
+    margin-top: 1em;
+    min-width: 16rem;
+    font-size: 13px;
+}
+
+.footer .footer__social-link {
+    display: flex;
+    margin: auto;
+}
+
+.footer__social-link img {
+    width: 32px;
+    height: 48px;
+}
+
+.footer__linklist-mobile_container {
+    display: none;
+}
